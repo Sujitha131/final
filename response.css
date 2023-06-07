@@ -1,0 +1,275 @@
+.checkbtn {
+    color: #443f3f;
+    margin-right: 20px;
+    padding: 8px  10px 5px;
+    border: 2px solid #0c0c0c;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (min-width:300px) and (max-width:900px){
+    body{
+        overflow-x: hidden;
+    }
+    .navcontainer{
+        background-image: url(images/header-bg1.png);
+        background-size: cover;
+    }
+    .navlinks{
+        position: absolute;
+        top: 100px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:220px;
+        width: 100%;
+        display: none;
+    }
+    .navlinks li{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding-left: 90px;
+           
+    }
+    .navlinks li a {
+        color: white;
+        font-weight: 500;
+    }
+    .navlinks li:hover a{
+        color:black;
+    }
+    h3 {
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+    }
+    #check:checked~.navlinks {
+         display: flex;   
+        
+    }
+  
+    .home{
+        background-image: url(images/header-bg1.png);
+        height: 720px;
+       
+    }
+    .home .banner {
+        position: absolute; 
+        top:80%; 
+        right:10%;
+    }
+    .home .banner img{
+        width:280px;
+    }
+    .home .words{
+        position: relative;
+        width: 280px;
+        right: 50px;
+
+    }
+    .home .words h1{
+        position: relative; 
+        right: 14%;
+        font-size: 100px;
+    }
+    .home .words h2{
+        position: relative;
+        width:100%;
+        font-size: 25px;
+        color: azure;
+        padding-left: 10px;
+    }
+    .home .words p{
+        position: relative;
+        padding-left: 10px;
+        color: #0c0c0c;
+
+    }
+    .home .words .button1{
+        position: relative;
+        right:80px;
+        width: 140px;
+        
+    }
+    .home .words .button2{
+        position: relative;
+        left:160px;
+        bottom: 50px;
+        width: 140px;
+    }
+    
+    .coffee_section{
+        position: relative;
+        top: 280px;
+    
+        
+    }
+    .coffee_section h1{
+        font-size: 30px;
+    }
+    .coffee_section_2 .row{
+        display: inline-block;
+    }
+    .coffee_section_2 .row .coffee_img img{
+        width: 300px;
+    }
+    .coffee_section_2 .types_text{
+        display: block;
+        
+    }
+    .read_bt a:hover {
+        color: #3b3b3b;
+        border: 1px solid #3b3b3b;
+    }
+    .about_section{
+        position: relative;
+        padding-top: 600px;
+        
+       
+    }
+    .about_section .content{
+        position: relative ;
+        display: block;
+        top:920px;
+        left: 2%;
+        
+       
+    }
+    .about_section .content h1{
+        font-size: 30px;
+
+    }
+    .about_section_2{
+        position:relative;
+    } 
+   
+    .about_section_2 .image_iman{
+        position:relative;
+        padding-top: 320%; 
+        right:95%;  
+    }
+    .about_section_2 .image_iman .about_img{
+        position: relative;
+        height:200px;
+        width:300px;
+    }
+    .about_taital_box{
+        position: relative;
+        right:15px;
+        width:300px;
+        height:500px;
+        top:40%;
+    }
+    .client_section {
+        background: rgb(208, 125, 107, 0.6);
+        background-size: cover;
+    }
+    .client_section .content1{
+       font-size: 16px;
+       padding-top: 15px;
+    }
+    .client_left {
+        position: relative;
+        right:120px;
+        width: 100%;
+        padding-left: 0px;
+       
+    }
+    .client_right {
+        position: relative;
+        right:180px;
+        width: 130%;
+        padding-top: 20px;
+    }
+    .client_right h3{
+        display: block;
+        
+    }
+    .client_taital_main {
+        display: block;
+        
+    }
+    .client_text {
+        width: 100%;  
+        padding-top: 10px;
+        text-align: justify;
+        
+    }
+    
+    .client_img {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .blog_section{
+        position: relative;
+        top: 30px;
+        
+    }
+    .blog_1{
+        position: relative;
+        padding-bottom: 50px;
+        width: 350px;
+        left: -40px;
+         
+    }
+    .blog_1 .blog_box{
+        width:250px;
+        
+    }
+    .blog_1 .read_bt{
+        position: relative;
+        left: 0px;
+       
+    }
+    .blog_2{
+        position: relative;
+        top:460px;
+        left:-290px;
+        
+    }
+    .blog_2 .blog_box_1{
+        width:250px ;
+        
+    }
+    .blog_2 .read_bt{
+        position: relative;
+        left: -10px;
+    } 
+    .blog_img img{
+        width:150px ;
+    }
+    .contact {
+        position: relative;
+        padding-bottom: 70px;
+        top: 520px;   
+    }
+    .footer{
+        position: relative;
+        top:450px;
+        
+    }
+    .footer .container{
+        position: relative;
+        bottom: 20px;
+    }
+    .copyright{
+        position: relative;
+        top:450px;
+    }
+    .copyright_text{
+        display: block;
+        padding-left: 40px;
+    }
+    .form-group{
+        height: 65px;
+        width: 80%;
+    }
+
+}
